@@ -33,11 +33,11 @@ setup(
     long_description=readme + '\n\n' + history,
     author="Darragh Crotty",
     author_email='darragh@darraghcrotty.com',
-    url='https://github.com/crotty-d /systeminfo',
+    url='https://github.com/crotty-d/systeminfo',
     packages=find_packages(include=['systeminfo']),
     entry_points={
         'console_scripts': [
-            'systeminfo=systeminfo.cli:main',
+            'systeminfo=systeminfo.systeminfo:main',
         ],
     },
     include_package_data=True,
