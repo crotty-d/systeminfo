@@ -3,7 +3,7 @@
 '''
 Created on 25 Jan 2018
 
-@author: d
+@author: Darragh Crotty
 '''
 
 import platform
