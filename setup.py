@@ -34,10 +34,10 @@ setup(
     author="Darragh Crotty",
     author_email='darragh@darraghcrotty.com',
     url='https://github.com/crotty-d/systeminfo',
-    packages=find_packages(include=['systeminfo']),
+    packages=['systeminfo'],
     entry_points={
         'console_scripts': [
-            'systeminfo=systeminfo.systeminfo:main',
+            'systeminfo=systeminfo.sysinfo:main',
         ],
     },
     include_package_data=True,
