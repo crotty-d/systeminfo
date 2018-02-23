@@ -34,7 +34,7 @@ setup(
     author="Darragh Crotty",
     author_email='darragh@darraghcrotty.com',
     url='https://github.com/crotty-d/systeminfo',
-    packages=['systeminfo'],
+    packages=find_packages(),
     entry_points={
         'console_scripts': [
             'systeminfo=systeminfo.sysinfo:main',
