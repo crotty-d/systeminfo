@@ -16,18 +16,19 @@ systeminfo
 
 
 
-Python package to get basic information about the system it's running on.
+Python package to get basic system information.
 
 
 * Free software: MIT license
 * Documentation: https://systeminfo.readthedocs.io.
 
 
-Description
+Features
 --------
 
-Small Python package that provides basic information about the system on which it's run via the *platform* Python module
-
+* Provides basic information about the system on which it's run via the *platform* Python module.
+* Provides the functions *get_platform_info()*, *get_machine_info()* and *get_version_info()* to access different kinds of system information.
+* Running the *sysinfo.py* file or entering the *sysinfo* console command (after adding it to your Python path) prints the system information via the above functions
 Credits
 -------
 
