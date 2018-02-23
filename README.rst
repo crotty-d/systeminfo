@@ -26,7 +26,7 @@ Python package to get basic information about the system it's running on.
 Description
 --------
 
-Small Python package that provides basic information about the system on which it's run via the **platform** Python module
+Small Python package that provides basic information about the system on which it's run via the *platform* Python module
 
 Credits
 -------
