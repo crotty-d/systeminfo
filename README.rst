@@ -23,10 +23,10 @@ Python package to get basic information about the system it's running on.
 * Documentation: https://systeminfo.readthedocs.io.
 
 
-Features
+Description
 --------
 
-* TODO
+Small Python package that provides basic information about the system on which it's run via the **platform** Python module
 
 Credits
 -------
