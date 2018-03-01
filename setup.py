@@ -33,12 +33,12 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'systeminfo=systeminfo.sysinfo:main',
+            'systeminfo=systeminfo.sysinfo:main'
         ],
     },
     include_package_data=True,
     install_requires=requirements,
-    license="MIT license",
+    license='MIT license',
     zip_safe=False,
     keywords='systeminfo',
     classifiers=[
